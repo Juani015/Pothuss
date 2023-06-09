@@ -1,20 +1,25 @@
 body { 
    font-family: 'Open Sans', sans-serif;
-   font-size: 16px;
-   line-height: 20px;
+   font-size: 12px;
+   line-height: 15px;
+   background-image: url(../multimedia/Imagenes/Fondo1.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
+
 
 /* ESTILOS_HEADER */
 
 header {
     background-color: #e0c2de ;
-    padding: 1.5em 0;
+    padding: 1.2em 0;
 }
 
 .holder {
 	margin-left: 2em;
 	margin-right: 2em;
-	}
+}
 
 header h1 {
     color:rgb(39, 22, 54);
@@ -47,6 +52,10 @@ nav ul li {
     width: 18%;
 }
 
+.todo {
+	width: 100% !important;
+}
+
 nav ul li a {
     color: rgb(109, 34, 103);
 	text-decoration: none;
@@ -67,28 +76,25 @@ nav ul li a.activo {
 /* LISTA_PRODUCTOS */
 
 nav ul li ul {
- width: 200px;
- display: flex;
- flex-direction: column;
- background: #e0c2de;
- position: absolute;
- /*top: 250px;
- left: px; */
- padding: 15px 0px;
- visibility: hidden;
- opacity: 0;
- box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);	
- z-index: 20;
- transition: all 300ms ease;
-
+ 	width: 200px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	background: #e0c2de;
+ 	position: absolute;
+ 	/*top: 250px;
+ 	left: px; */
+ 	padding: 15px 0px;
+ 	visibility: hidden;
+ 	opacity: 0;
+ 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);	
+ 	z-index: 20;
+ 	transition: all 300ms ease;
 }
 
 nav ul li:hover ul {
 	visibility: visible;
 	opacity: 1;
-	top:240px;
-	
-	
+	top:240px;	
 }
 
 
@@ -106,25 +112,21 @@ nav ul li ul:before {
 	left: 20px
 }
 
-nav ul li ul li a{
-display: block;
-color: rgb(109, 34, 103);
-padding: 6px;
-padding-left: 14px;
-margin-top: 10px;
-font-size: 14px;
-text-transform: uppercase;
-transition: all 300ms ease;
+nav ul li ul li a {
+	display: block;
+	color: rgb(109, 34, 103);
+	padding: 6px;
+	padding-left: 14px;
+	margin-top: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: all 300ms ease;
 }
+
 /* SELECCION_LISTA */
 
 nav ul li ul li a:hover {
-	background: #f10a0a;
-	color: rgb(45, 10, 202);
-	transform: scale(1.1);
-	padding-left: 30px;
-	font-size: 14px;
-	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);	
+	background-color:rgb(199, 167, 196);
 }
 
 /* ESTILOS_MAIN */
@@ -142,18 +144,18 @@ h2 {
 }
 
 .Inicioimg {
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
+
 .Inicioimg img {
    width: 100%; 
 }
-
 
 .bienvenidos {
     width: 100%;
     padding-right: 10px;/*2em;*/
 	box-sizing:border-box;
-	background-color: yellow;
+	
 }
 
 .bienvenidos p {
@@ -198,7 +200,7 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 }
 
 
-.footer-distributed{
+.footer-distributed {
 	background: #e0c2de;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -210,20 +212,20 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
 	display: inline-block;
 	vertical-align: top;
 }
 
 /* FOOTER_LEFT */
 
-.footer-distributed .footer-left{
+.footer-distributed .footer-left {
 	width: 30%;
 }
 
 /* FOOTER_NOMBRE_PAGINA */
 
-.footer-distributed h3{
+.footer-distributed h3 {
 	color:  hsl(313, 57%, 39%);
 	font: normal 36px 'Open Sans', cursive;
 	margin: 0;
@@ -231,13 +233,13 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 
 /* FOOTER_LINKS */
 
-.footer-distributed .footer-links{
+.footer-distributed .footer-links {
 	color:  hsl(313, 57%, 39%);
 	margin: 12px 0 12px;
 	padding: 0;
 }
 
-.footer-distributed .footer-links a{
+.footer-distributed .footer-links a {
 	display:inline-block;
 	line-height: 1;
 	font-weight:400;
@@ -256,11 +258,11 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 
 /* FOOTER_CENTER */
 
-.footer-distributed .footer-center{
+.footer-distributed .footer-center {
 	width: 30%;
 }
 
-.footer-distributed .footer-center i{
+.footer-distributed .footer-center i { 
 	background-color:  hsl(313, 57%, 39%);
 	color: hsl(313, 57%, 39%);
 	font-size: 25px;
@@ -274,12 +276,12 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 	
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer-distributed .footer-center i.fa-envelope {
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-distributed .footer-center p {
 	display: inline-block;
 	color: hsl(313, 57%, 39%);
   	font-weight:400;
@@ -289,7 +291,7 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 	
 }
 
-.footer-distributed .footer-center p span{
+.footer-distributed .footer-center p span {
 	display:block;
 	font-weight: normal;
 	font-size:14px;
@@ -297,31 +299,33 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 	
 }
 
-.footer-distributed .footer-center p a{
+.footer-distributed .footer-center p a {
 	color:  rgb(27, 134, 129);
 	text-decoration: none;
 	
 }
 
 .footer-distributed .footer-links a:before {
-  content: "|";
-  font-weight:300;
-  font-size: 20px;
-  left: 0;
-  color: hsl(313, 57%, 39%);
-  display: inline-block;
-  padding-right: 2px;
+  	content: "|";
+  	font-weight:300;
+  	font-size: 20px;
+  	left: 0;
+  	color: hsl(313, 57%, 39%);
+  	display: inline-block;
+  	padding-right: 2px;
   
 }
 
 .footer-distributed .footer-links .link-1:before {
-  content: none;
+  	content: none;
 }
 
 .footer-distributed .footer-icons {
 	margin-top: 25px;
+	margin-left: 114px;
 }
-.footer-distributed .footer-icons a{
+
+.footer-distributed .footer-icons a {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -339,7 +343,7 @@ footer {/* ESTILOS FOOTER DE LA ESTRUCTURA */
 
 /* FOOTER_RIGHT */
 
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
 	width: 30%;
 }
 

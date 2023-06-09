@@ -16,9 +16,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
   <!--NORMALIZE CSS -->
-  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="./../css/normalize.css">
   <!--ESTILOS CSS PROPIOS-->
-  <link rel="stylesheet" href="../css/nosotros.css">
+  <link rel="stylesheet" href="./../css/estilos.css">
 
   <title>Pothussmacetas | Nosotros</title>
 
@@ -28,7 +28,7 @@
   <header class="container-fluid">
     <div class="holder container">
 
-      <img src="../multimedia/Imagenes/Logo.jpg" alt="Logo de la empresa" width="150" height="150">
+      <img src="./../multimedia/Imagenes/Logo.jpg" alt="Logo de la empresa" width="150" height="150">
       <h1> POTHUSS </h1>
     </div>
   </header>
@@ -37,17 +37,25 @@
     <div class="holder">
 
       <ul class="d-flex justify-content-between">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a class="activo" href="">Nosotros</a></li>
-        <li><a href="">Productos</a></li>
-        <li><a href="">Contacto</a></li>
+        <li><a href="./../index.html">Inicio</a></li>
+        <li><a class="activo" href="./../Nosotros.html">Nosotros</a></li>
+        <li><a href="./../Productos.html">Productos</a>
+          <ul>
+            <li class="todo"><a href="#">Rotomoldeado</a></li>
+            <li class="todo"><a href="#">Fibra de vidrio</a></li>
+            <li class="todo"><a href="#">Fibrocemento</a></li>
+            <li class="todo"><a href="#">Cerámica</a></li>
+            <li class="todo"><a href="#">Porta macetas</a></li>
+          </ul>
+        </li>
+        <li><a href="./../Contacto.html">Contacto</a></li>
       </ul>
     </div>
   </nav>
 
   <main class="container">
     <div class="Inicioimg">
-      <img src="../multimedia/Imagenes/Inicio.jpg" alt="imagen de inicio">
+      <img src="./../multimedia/Imagenes/Inicio.jpg" alt="imagen de inicio">
     </div>
     <div class="quienes somos"></div>
     <h3> QUIÉNES SOMOS</h3>
@@ -64,55 +72,76 @@
     </div>
   </main>
 
-  <footer>
+  <footer class="footer-distributed">
 
-    <footer class="footer-distributed">
-      <div class="footer-left">
+    <div class="footer-left">
 
-        <h3>POTHUSS</h3>
+      <h3>POTHUSS</h3>
 
-        <p class="footer-links">
-          <a href="#"class="link-1">Inicio</a>
-          <a href="#">Nosotros</a>
-          <a href="#">Productos</a>
-          <a href="#">Contactos</a>
-        </p>
+      <p class="footer-links">
+        <a href="#" class="link-1">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Productos</a>
+        <a href="#">Contactos</a>
+      </p>
 
-        <p class="footer-company-name">Diseñado por Juana Almada - &copy; 2023</p>
+      <p class="footer-c2023-company">Diseñado por Juana Almada - &copy; 2023</p>
+    </div>
+
+    <div class="footer-center">
+
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <i class="direccion"></i>
+              <img src="./../multimedia/redes sociales/icons8-mapa-48.png" alt="mapa" width="30" height="30">
+            </td>
+            <td>
+              <p><span>El Salvador 4865</span> Buenos Aires. Argentina</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="telefono"></i>
+              <img src="./../multimedia/redes sociales/icons8-mensaje-de-telefono-50.png" alt="telefono" width="20"
+                height="20">
+            </td>
+            <td>
+              <p>11-7500-2345</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <i class="correo"></i>
+              <img src="./../multimedia/redes sociales/icons8-nuevo-post-50.png" alt="email" width="20" height="20">
+            </td>
+            <td>
+              <p><a href="mailto:info@Pothussmacetas.com.ar">info@Pothussmacetas.com.ar</a></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="redes">
+        Para más contenidos seguimos en nuestras redes
+      </p>
+
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/Pothussmacetas"><img
+            src="./../multimedia/redes sociales/icons8-instagram-48.png"></a>
+        <a href="https://www.facebook.com/Pothussmacetas"><img
+            src="./../multimedia/redes sociales/icons8-facebook-48.png"></a>
       </div>
+    </div>
 
-      <div class="footer-center">
-        <div>
-          <i class="direccion"></i>
-          <img src="../multimedia/redes sociales/icons8-mapa-48.png" alt="mapa">
-          <p><span>El Salvador 4865</span> Buenos Aires. Argentina</p>
-        </div>
-        <div>
-          <i class="telefono"></i>
-          <img src="../multimedia/redes sociales/icons8-mensaje-de-telefono-50.png" alt="telefono">
-          <p>11-7500-2345</p>
-        </div>
-        <div>
-          <i class="correo"></i>
-          <img src="../multimedia/redes sociales/icons8-nuevo-post-50.png" alt="email">
-          <p><a href="mailto:info@Pothussmacetas.com.ar">info@Pothussmacetas.com.ar</a></p>
-        </div>
+  </footer>
 
-      </div>
-      <div class="footer-right">
-
-        <footer>
-          <div class="social-networks">
-            <h4> Seguinos en nuestras redes</h4>
-            <ul>
-              <a href="https://www.instagram.com/Pothussmacetas"><img
-                  src="../multimedia/redes sociales/icons8-instagram-48.png"></a>
-              </li>
-              <a href="https://www.facebook.com/Pothussmacetas"><img
-                  src="../multimedia/redes sociales/icons8-facebook-48.png"></a></li>
-            </ul>
-          </div>
-        </footer>
 </body>
 
 </html>
