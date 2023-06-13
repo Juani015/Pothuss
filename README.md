@@ -20,12 +20,12 @@ Sección de contacto para enviarnos un correo electrónico para más informació
 
 ## Despliegue 📦
 
----
+´´´
 link deploy GitHub: Deploy
----
----
+´´´
+´´´
 Link repositorio GitHub: https://github.com/Juani015/Pothuss
----
+´´´
 
 
 ## Contribuyendo 🖇️
@@ -35,7 +35,7 @@ Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y
 
 ## Autor ✒️
 
-Juana Almada - Juani015
+- Juana Almada - Juani015
 
 
 ## Licencia 📄
