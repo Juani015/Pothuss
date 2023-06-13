@@ -20,7 +20,7 @@ Sección de contacto para enviarnos un correo electrónico para más informació
 
 ## Despliegue 📦
 
-- link deploy GitHub: Deploy
+- link deploy GitHub: https://juani015.github.io/Pothuss/
 - Link repositorio GitHub: https://github.com/Juani015/Pothuss
 
 
